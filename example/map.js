@@ -12,59 +12,59 @@ var mapdata = {
         id: uuid(),
         name: "Floor 1",
         image: {
-            url: "images/sample_floorplan.png",
+            url: "images/plan.JPG",
             x: 0,
             y: 0,
             w: width,
             h: height
         },
         zones: [
-            {
-                id: uuid(),
-                name: "ZONE - 0",
-                points: [
-                    [
-                        147,
-                        117
-                    ],
-                    [
-                        147,
-                        268
-                    ],
-                    [
-                        368,
-                        268
-                    ],
-                    [
-                        369,
-                        148
-                    ],
-                    [
-                        353,
-                        149
-                    ],
-                    [
-                        353,
-                        82
-                    ],
-                    [
-                        316,
-                        32
-                    ],
-                    [
-                        233,
-                        32
-                    ],
-                    [
-                        201,
-                        79
-                    ],
-                    [
-                        199,
-                        117
-                    ]
-                ]
-            },
+            // {
+            //     id: uuid(),
+            //     name: "ZONE - 0",
+            //     points: [
+            //         [
+            //             147,
+            //             117
+            //         ],
+            //         [
+            //             147,
+            //             268
+            //         ],
+            //         [
+            //             368,
+            //             268
+            //         ],
+            //         [
+            //             369,
+            //             148
+            //         ],
+            //         [
+            //             353,
+            //             149
+            //         ],
+            //         [
+            //             353,
+            //             82
+            //         ],
+            //         [
+            //             316,
+            //             32
+            //         ],
+            //         [
+            //             233,
+            //             32
+            //         ],
+            //         [
+            //             201,
+            //             79
+            //         ],
+            //         [
+            //             199,
+            //             117
+            //         ]
+            //     ]
+            // },
             {
                 id: uuid(),
                 name: "ZONE - 1",
@@ -92,31 +92,31 @@ var mapdata = {
             id: uuid(),
             name: "Sensor - 0",
             url: "images/bluetooth_logo.png",
-            x: 50,
-            y: 50,
-            w: width,
-            h: height
+            x: 5,
+            y: 5,
+            w: 50,
+            h: 50
         }]
-    }, {
-        id: uuid(),
-        name: "Floor 2",
-        image: {
-            url: "images/sample_floorplan.png",
-            x: 0,
-            y: 0,
-            w: width,
-            h: height
-        },
-        zones: [],
-        sensors: [{
-            id: uuid(),
-            name: "Sensor - 1",
-            url: "images/bluetooth_logo.png",
-            x: 50,
-            y: 50,
-            w: width,
-            h: height
-        }]
+    // }, {
+    //     id: uuid(),
+    //     name: "Floor 2",
+    //     image: {
+    //         url: "images/plan.JPG",
+    //         x: 0,
+    //         y: 0,
+    //         w: width,
+    //         h: height
+    //     },
+    //     zones: [],
+    //     sensors: [{
+    //         id: uuid(),
+    //         name: "Sensor - 1",
+    //         url: "images/bluetooth_logo.png",
+    //         x: 50,
+    //         y: 50,
+    //         w: width,
+    //         h: height
+    //     }]
     }]
 };
 
